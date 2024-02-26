@@ -1,0 +1,299 @@
+* {
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif; 
+  font-weight: 300;
+}
+
+.navbar {
+  background: #403B3B;
+  padding: 0px 15px 0px 15px;
+}
+
+.navdiv {
+  display: flex;  
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar2 {
+  background: #312E2E;
+  padding: 0px 40px 0px 40px;
+}
+
+.navdiv2 {
+  display: flex;  
+  align-items: center;
+  justify-content: space-between;
+}
+
+.liheader{
+  list-style: none;
+  display: inline-block;
+}
+
+.liheader a{
+  color: #FF0023;
+  font-size: 22px;
+  margin-right: 390px;
+}
+
+main {
+  background: black;
+}
+
+.espacopreto {
+  background: black;
+}
+
+.principal {
+  background-color: #312E2E;
+  width: 1700px;
+  padding-top: 50px;
+  margin: auto;
+  border-radius: 15px;
+}
+
+.carrosel {
+  margin: 0 auto;
+  width: 800px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.imgcarrosel {
+  width: 400%;
+  height: 100%;
+  display: flex;
+}
+
+.imgcarrosel input {
+  display: none;
+}
+
+.imgs {
+  width: 25%;
+  position: relative;
+}
+
+.imgs img{
+  width: 800px;
+  border-radius: 25px;
+}
+
+.navmanual {
+  position: absolute;
+  width: 800px;
+  margin-top: 420px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn {
+  border: 2px solid white;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+  margin-right: 20px;
+}
+
+.manual-btn:hover {
+  background: white;
+}
+
+#radio1:checked ~ .imgs img {
+  margin-left: 0;
+}
+
+#radio2:checked ~ .imgs img {
+  margin-left: -100%;
+}
+
+#radio3:checked ~ .imgs img {
+  margin-left: -200%;
+}
+
+.navauto {
+  position: absolute;
+  width: 800px;
+  margin-top: 420px;
+  display: flex;
+  justify-content: center;
+}
+
+.navauto div {
+  border: solid 2px blue;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.navauto div:not(:last-child) {
+  margin-right: 20px;
+}
+
+#radio1:checked ~ .navauto .autoimg1 {
+  background-color: white;
+}
+
+#radio2:checked ~ .navauto .autoimg2 {
+  background-color: white;
+}
+
+#radio3:checked ~ .navauto .autoimg3 {
+  background-color: white;
+}
+
+h1 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 300px;
+}
+
+.noticiascima {
+  display: flex;  
+  align-items: center;
+  justify-content: space-between;
+}
+
+.noticiascima img {
+  width: 700px;
+  border-radius: 15px;
+  margin: 0px 60px;
+}
+
+.noticiascima p {
+  color: white;
+  margin: -10px 70px;
+  font-size: 32px;
+}
+
+.noticia1 {
+  margin-top: -48px;
+}
+
+#titulo1 {
+  color: #FF0023;
+  margin: 10px 60px;
+  font-size: 32px;
+}
+
+#titulo2 {
+  color: #ffc400;
+  margin: 10px 60px;
+  font-size: 32px;
+}
+
+.noticiasbaixo {
+  display: flex;  
+  align-items: center;
+  justify-content: space-between;
+}
+
+.noticiasbaixo img {
+  width: 700px;
+  border-radius: 15px;
+  margin: 0px 60px;
+}
+
+.noticiasbaixo p {
+  color: white;
+  margin: -10px 70px;
+  font-size: 32px;
+}
+
+.noticia3 {
+  margin-top: -48px;
+}
+
+#titulo3 {
+  color: black;
+  margin: 10px 60px;
+  font-size: 32px;
+}
+
+#emalta {
+  color: #FF0023;
+  position: relative;
+  right: -140px;
+  top: 50px;
+  font-size: 48px;
+}
+
+.linha {
+  border-bottom: 4px solid #FF0023;
+  border-radius: 2px;
+  width: 390px;
+  position: relative;
+  right: -340px;
+  top: 15px;
+}
+
+.top5 {
+  margin-top: 50px;
+  display: flex;  
+  align-items: center;
+  justify-content: space-between;
+}
+
+.umacinco p {
+  position: relative;
+  right: -70px;
+  font-size: 100px;
+  padding: -110px 0px;
+}
+
+.umacincotexto p {
+  position: relative;
+  right: 60px;
+  font-size: 24px;
+  padding: 37px 0px;
+}
+
+.footer {
+  background: #403B3B;
+  padding: 0px 15px 0px 15px;
+  height: 250px;
+}
+
+.footerdiv {
+  display: flex;  
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footervh {
+  color: white;
+  font-size: 24px;
+  padding-top: 60px;
+}
+
+.footerlogos p {
+  color: white;
+  font-size: 24px;
+  padding-top: 60px;
+  position: relative;
+  top: -30px;
+  right: 40px;
+  text-align: right;
+}
+
+.footerlogos img {
+  width: 400px;
+  position: relative;
+  top: 0px;
+  right: -450px;
+}
+
+
+
+
+
