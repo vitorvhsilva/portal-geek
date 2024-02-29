@@ -4,6 +4,7 @@
   margin: 0;
   font-family: "Poppins", sans-serif; 
   font-weight: 300;
+  transition: .5s;
 }
 
 .navbar {
@@ -35,8 +36,12 @@
 
 .liheader a{
   color: #FF0023;
-  font-size: 22px;
-  margin-right: 390px;
+  font-size: 110%;
+  margin-right: 150px;
+}
+
+.liheader a:hover {
+  color: #b80018;
 }
 
 main {
@@ -173,23 +178,54 @@ h1 {
 .noticiascima p {
   color: white;
   margin: -10px 70px;
-  font-size: 32px;
+  font-size: 200%;
 }
 
 .noticia1 {
+  margin-top: -5.5%;
+  opacity:0.5;
+}
+
+.noticia1:hover {
+  opacity:1.0;
+}
+
+.noticia2 {
   margin-top: -48px;
+  opacity:0.5;
+}
+
+.noticia2:hover {
+  opacity:1.0;
+}
+
+.noticia3 {
+  margin-top: -48px;
+  opacity:0.5;
+}
+
+.noticia3:hover {
+  opacity:1.0;
+}
+
+.emalta {
+  opacity:0.5;
+}
+
+.emalta:hover {
+  opacity:1.0;
 }
 
 #titulo1 {
   color: #FF0023;
   margin: 10px 60px;
-  font-size: 32px;
+  font-size: 200%;
 }
 
 #titulo2 {
   color: #ffc400;
   margin: 10px 60px;
-  font-size: 32px;
+  font-size: 200%;
 }
 
 .noticiasbaixo {
@@ -207,7 +243,7 @@ h1 {
 .noticiasbaixo p {
   color: white;
   margin: -10px 70px;
-  font-size: 32px;
+  font-size: 200%;
 }
 
 .noticia3 {
@@ -217,7 +253,7 @@ h1 {
 #titulo3 {
   color: black;
   margin: 10px 60px;
-  font-size: 32px;
+  font-size: 200%;
 }
 
 #emalta {
@@ -226,6 +262,7 @@ h1 {
   right: -140px;
   top: 50px;
   font-size: 48px;
+  width: 50%;
 }
 
 .linha {
@@ -272,13 +309,13 @@ h1 {
 
 .footervh {
   color: white;
-  font-size: 24px;
+  font-size: 120%;
   padding-top: 60px;
 }
 
 .footerlogos p {
   color: white;
-  font-size: 24px;
+  font-size: 100%;
   padding-top: 60px;
   position: relative;
   top: -30px;
@@ -287,10 +324,10 @@ h1 {
 }
 
 .footerlogos img {
-  width: 400px;
+  width: 70%;
   position: relative;
   top: 0px;
-  right: -450px;
+  right: -25%;
 }
 
 #fundohq {
