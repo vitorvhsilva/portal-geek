@@ -293,7 +293,37 @@ h1 {
   right: -450px;
 }
 
+#fundohq {
+  background: white;
+}
 
+.hqborder {
+  border: 3px solid black;
+}
 
+.imgshqmeio {
+  display: flex;  
+  align-items: center;
+  justify-content: center;
+}
 
+.imgshqmeio img {
+margin: 30px 30px;
+}
+
+#imgshqcima {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 97.5%;
+}
+
+#imgshqbaixo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 97.5%;
+}
 
